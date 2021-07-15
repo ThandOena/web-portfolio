@@ -1,0 +1,33 @@
+header {
+    background-image:linear-gradient(aquamarine, white);
+    min-height: 400px;
+}
+nav {
+    /* background-image:linear-gradient(aquamarine, white); */
+    padding: 50px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    /* padding: 10px; */
+    /* margin: 10px; */
+}
+
+#rnav {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:space-between;
+    align-items:flex-end;
+    
+}
+
+.rnav1 {
+    padding: 10px;
+}
+
+.lnav {
+    /* padding: 10px; */
+}
