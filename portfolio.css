@@ -40,15 +40,21 @@ nav {
 /* about section below! */
 .about {
     display: flex;
-    justify-content:space-around;
-    /* align-items: center; */
+    justify-content:space-between;
+    align-items: center;
 }
 
-.about-pic {
+#tee {
+    height: 40vh;
+    /* border-radius: 100px; */
+    border-radius: 10% 30% 50% 70%;
+}
+/* .about-pic {
     display: block;
-    /* width: 300px; */
-    /* height: 300px; */
+    border-image: round;
+    width: 300px;
+    height: 300px; 
     margin:auto;
-    border-radius: 50%;
+    border-radius: 10% 30% 50% 70%; */
 
 }
