@@ -37,14 +37,23 @@ nav {
     /* padding: 10px; */
 }
 
+.name {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /* about section below! */
 .about {
     display: flex;
+    flex-flow: nowrap;
     justify-content:space-between;
     align-items: center;
+    background-color: brown;
+    padding: 20px;
 }
 
 #tee {
+
     height: 40vh;
     /* border-radius: 100px; */
     border-radius: 10% 30% 50% 70%;
@@ -57,4 +66,9 @@ nav {
     margin:auto;
     border-radius: 10% 30% 50% 70%; */
 
+}
+
+.about-text {
+    text-align: center;
+    border: 2px solid black;
 }
