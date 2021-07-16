@@ -2,12 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
-
+/* header + navigation */
 header {
     background-image:linear-gradient(aquamarine, white);
     min-height: 400px;
     min-width: 900px;
 }
+
 nav {
     padding: 50px;
     margin: 0px;
@@ -25,7 +26,6 @@ nav {
     /* flex-direction: row; */
     /* justify-content:space-between; */
     /* align-items:center; */
-    
 }
 
 .nav-link {
@@ -72,3 +72,25 @@ nav {
     text-align: center;
     border: 2px solid black;
 }
+
+.course {
+    background-color: blueviolet;
+}
+/* timeline creation */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
