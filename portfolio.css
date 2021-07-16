@@ -1,9 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
     background-image:linear-gradient(aquamarine, white);
     min-height: 400px;
 }
 nav {
-    /* background-image:linear-gradient(aquamarine, white); */
     padding: 50px;
     margin: 0px;
 }
@@ -11,7 +15,6 @@ nav {
 .navbar {
     display: flex;
     justify-content: space-between;
-    /* background-color: aquamarine; */
     /* padding: 10px; */
     /* margin: 10px; */
 }
