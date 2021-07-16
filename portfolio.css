@@ -31,6 +31,8 @@ nav {
 .nav-link {
     font-family:monospace;
     text-transform: uppercase;
+    color: black;
+    margin: 30px;
 }
 
 .lnav {
@@ -55,7 +57,6 @@ nav {
 #tee {
 
     height: 40vh;
-    /* border-radius: 100px; */
     border-radius: 10% 30% 50% 70%;
 }
 /* .about-pic {
@@ -124,4 +125,10 @@ nav {
     background-color: white;
     position: relative;
     border-radius: 6px;
+  }
+
+  footer {
+      background-color:beige;
+      padding: 20px;
+      text-align: center;
   }
