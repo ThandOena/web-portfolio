@@ -14,6 +14,19 @@ nav {
     margin: 0px;
 }
 
+h2 {
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.headings {
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: aquamarine;
+    text-align: center;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -125,6 +138,22 @@ nav {
     background-color: white;
     position: relative;
     border-radius: 6px;
+  }
+
+  /* projects */
+
+  .projects {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 20px;
+  }
+
+  button {
+      padding: 100px;
+      border: none;
+      border-radius: 50%;
+      background-color:lightpink;
   }
 
   footer {
