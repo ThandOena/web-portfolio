@@ -103,7 +103,7 @@ p {
 
 .week:hover + .hiden {
     display: block;
-    color: lightcoral;
+    color: black;
 }
 .hiden {
     display: none;
@@ -153,6 +153,7 @@ p {
   /* The actual content */
 .content {
     padding: 20px 30px;
+    /* background-image:linear-gradient(aquamarine, white); */
     background-color:aquamarine;
     position: relative;
     border-radius: 6px;
