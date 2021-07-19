@@ -1,0 +1,31 @@
+.projects {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+@media  screen and (max-width:480px) {
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+} 
+@media screen and (max-width:500px){
+    .projects div {
+        width: 50%;
+        margin: 20px 0;
+    }
+    
+}
