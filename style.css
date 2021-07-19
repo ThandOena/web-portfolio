@@ -40,7 +40,6 @@ p {
 }
 
 a{
-
     text-decoration: none;
     color: black;
 }
@@ -62,19 +61,11 @@ a{
     padding: 70px;
     margin: 10px;
 }
-/* 
-.rnav {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items:center; 
-} */
 
 .nav-link {
     /* font-family:monospace; */
     font-family: 'Old Standard TT', serif;
     text-transform: uppercase;
-    /* text-decoration: underline; */
     color: black;
     margin: 30px;
 }
@@ -96,12 +87,12 @@ a{
     flex-flow: nowrap;
     justify-content:space-between;
     align-items: center;
-    margin: 150px;
-   
+    margin: 100px;
 }
+
  @media screen and (max-width: 500px) {
     .about-text {
-        width: 50%
+        width: 50%;
     }
 } 
 
