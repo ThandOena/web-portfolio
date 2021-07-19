@@ -100,9 +100,7 @@ a{
     flex-flow: nowrap;
     justify-content:space-between;
     align-items: center;
-    margin: 60px;
-    /* margin-left: 200px; */
-    
+    margin: 150px;
    
 }
  @media screen and (max-width: 500px) {
@@ -113,29 +111,19 @@ a{
 
 
 #tee {
-
-    height: 200px;
+    width: 200px;
+    /* height: 210px; */
     border-radius: 10% 30% 50% 70%;
      /* @media sceen(min-width:480px) {
          height: 30vh;
      } */
 }
 
-/* .about-pic {
-    display: block;
-    border-image: round;
-    width: 300px;
-    height: 300px; 
-    margin:auto;
-    border-radius: 10% 30% 50% 70%; 
-    
-}
-*/
 
 .about-text {
     text-align: center;
     margin: 50px;
-    /* padding: 100px; */
+    padding:50px;
     /* border: 2px solid black; */
 
 }
@@ -146,9 +134,6 @@ span.quote {
 
 #course {
     padding: 80px;
-    /* display: flex;
-    justify-content:; */
-    /* background-color: blueviolet; */
 }
 
 .week:hover + .hiden {
@@ -182,7 +167,6 @@ span.quote {
 .container {
     padding: 10px 60px;
     position: relative; 
-    /* background-color:inherit; */
     @media (min-width:480px;) {
         padding: 5px 30px
     } 
@@ -209,14 +193,10 @@ span.quote {
   /* The actual content */
 .content {
     padding: 20px 30px;
-    /* background-image:linear-gradient(aquamarine, white); */
     background-color:aquamarine;
     position: relative;
     border-radius: 6px;
-    /* @media (min-width:480px){
-        padding: 10px 15px;
-        position:center;
-    } */
+    
   }
 
   /* projects */
@@ -257,8 +237,8 @@ span.quote {
   }
 
   footer {
-      background-image: ;
-      /* background-image: -webkit-radial-gradient(aquamarine, white);   */
+      /* background-image: ; */
+      background-image: -webkit-radial-gradient(aquamarine, white);
       padding: 20px;
       text-align: center;
   }
